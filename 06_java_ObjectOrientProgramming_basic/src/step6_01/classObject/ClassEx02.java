@@ -1,5 +1,7 @@
 package step6_01.classObject;
 
+import step6_02.method.MethodEx01;
+
 /*
  * 
  * # 클래스의 범위

@@ -21,8 +21,7 @@ import java.util.Scanner;
  *잔       돈		1200
  */
 
-/*
-class Ex10 {
+class Ex10_pr {
 	String name = "";		// 가게 이름
 	
 	int[] arPrice   = {    2500,       3800,     1500,  1000};
@@ -32,14 +31,14 @@ class Ex10 {
 	
 	int total = 0;
 }
-*/
+
 
 public class ClassEx10_정답 {
 
 	public static void main(String[] args) {
 
-		
-		
+	
+		System.out.println();
 		
 		
 		
