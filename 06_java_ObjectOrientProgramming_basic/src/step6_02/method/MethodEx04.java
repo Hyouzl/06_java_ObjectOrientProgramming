@@ -7,8 +7,8 @@ class Zealot {
 	int hp = 100;
 	
 	void showStatus() {
-		System.out.println("shield : " + shield);
-		System.out.println("hp : " + hp);
+		System.out.println("shield : " + this.shield);
+		System.out.println("hp : " + this.hp);
 		System.out.println();
 	}
 }
