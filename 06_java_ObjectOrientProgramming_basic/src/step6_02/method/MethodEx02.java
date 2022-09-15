@@ -50,6 +50,22 @@ class MethodType {
 		
 	}
 	
+	//입력값은 없고 결과값은 있는 경우
+	
+	double type01() {
+		return 3.141592;
+	}
+	
+	
+	
+	//입력값과 결과값이 모두 있는 경우
+	int type11(String birth) {
+		
+		String temp = birth.substring(0,4);
+		int age = 2022 - Integer.parseInt(temp) + 1;
+		
+		return age;
+	}
 	
 }
 
@@ -80,8 +96,24 @@ public class MethodEx02 {
 		//mt.type10(("파일1.txt" , "파일2.txt" , "파일3.txt");		
 		
 		
+		//입력값은 없고 결과값은 있는 경우
+	
+		System.out.println("PI : " + mt.type01());
+		double pi = mt.type01();
+		System.out.println("PI : " + pi);
+		System.out.println();
 		
 		
+		//입력값과 결과값이 모두 있는 경우
+		
+		System.out.println("나이 : " + mt.type11("19800101") + "살");
+		
+		int getAge = mt.type11("19900101");
+		System.out.println("나이 : " + getAge + "살");
+		
+		if ( mt.type11("20220101") == 1) {
+			System.out.println("나이 : 1살");
+		}
 		
 	}
 
