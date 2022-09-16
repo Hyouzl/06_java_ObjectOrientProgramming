@@ -77,10 +77,10 @@ class SpeedGame {
 		int xIdx = scan.nextInt();
 		
 		if (num == front[yIdx][xIdx]) {
-			if (num <= 9) {
-				front[yIdx][xIdx] = back[yIdx][xIdx]; 
+			if (num <= 9) {  
+				front[yIdx][xIdx] = back[yIdx][xIdx];  
 			} 
-			else {
+			else { 
 				front[yIdx][xIdx] = 0;
 			}
 			num++;
