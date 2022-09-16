@@ -137,9 +137,7 @@ class Ex12_pr {
 		int k = 0;
 		int l = 0;
 		while (true) {
-			if () {
-				return splitStr;
-			}
+		
 			for (int i = idx1; i < data.length(); i++) {
 				if ((data.charAt(i)+"").equals(sep)) {
 					idx2 = i;
